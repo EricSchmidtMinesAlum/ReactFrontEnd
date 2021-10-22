@@ -5,7 +5,27 @@ function App() {
     <div>
       <h1 className="doNotRemoveMe">Hello world.</h1>
       {/* ^ Do not remove this element ^ */}
-      <div>Hello World!</div>
+      <h1>My Recipes</h1>
+
+      <button onClick={showForm}>
+      Add Recipe
+      </button>
+
+      <form>
+        <label>
+          recipe-name:
+          <input type="text" name="recipe-name" />
+          recipe-instructions:
+          <input type="text" name="recipe-instructions" />
+        </label>
+        <input type="submit" value="Submit" />
+      </form>
+
+
+
+
+
+
     </div>
   );
 }

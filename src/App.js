@@ -5,6 +5,7 @@ function App() {
     <div>
       <h1 className="doNotRemoveMe">Hello world.</h1>
       {/* ^ Do not remove this element ^ */}
+      <div>Hello World!</div>
     </div>
   );
 }
